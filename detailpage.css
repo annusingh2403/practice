@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(201, 25, 25);
+    padding: 15px;
+}
+
+.navbar::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo a{
+    text-decoration: none;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 70px;
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(240, 50, 50);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.logo:hover a{
+    cursor: pointer;
+    color: rgb(252, 249, 249);
+    background-color: rgb(201, 25, 25);
+}
+
+.logo b{
+    padding: 7px;
+}
+
+.navbar-links {
+    float: right;
+    margin-top: 10px;
+    margin-right: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: rgb(252, 248, 248);
+    padding: 8px;
+    font-size: 15px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.navbar-links a:hover {
+    opacity: .7;
+}
+
+.navbar-links a:nth-child(2) {
+    border: 1px solid rgb(201, 197, 197);
+    margin-left: 10px;
+}
+
+.image-container {
+    background-image: url("img/bg-detail.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85%;
+    height: 400px;
+    margin: 30px auto;
+    position: relative;
+}
+
+.image-text a{
+    text-decoration: none;
+    background-color: rgb(243, 236, 236, .8);
+    color: rgb(41, 74, 124);
+    font-weight: 600;
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.image-text a:hover {
+    background-color: rgb(243, 236, 236, 9);
+}
+
+.container {
+    width: 85%;
+    height: 400px;
+    margin: 30px auto;
+    margin-bottom: 100px;
+}
+
+.container-heading {
+    font-size: 25px;
+    color: rgb(48, 56, 99);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.tab {
+    margin: 40px 0 15px 15px;
+}
+
+.tab ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
+    color: rgb(54, 65, 122);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.tabcontent {
+    display: none;
+}
+
+.tab ul li:hover {
+    opacity: .7;
+}
+
+.tab ul li.active {
+    border-bottom: 1px solid orangered;
+}
+
+
+hr {
+    margin-top: 15px;
+    border: none;
+    background-color: rgba(208, 215, 219, 0.863);
+    height: 1px;
+}
+
+.Overview {
+
+}
+
+
+.about-heading {
+    font-size: 18px;
+    color: rgb(54, 65, 122);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0 30px 0;
+}
+
+.aboutSubHeading {
+    font-size: 15px;
+    color: rgb(54, 65, 122);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0 30px 0;
+}
+
+.aboutSubHeading-content {
+    font-size: 12px;
+    color: rgb(87, 98, 146);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0 30px 0;
+}
+
+.Contact {
+
+}
+
+.contact-heading {
+    font-size: 15px;
+    color: rgb(54, 65, 122);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0 30px 0;
+}
+
+.phone-number {
+    font-size: 15px;
+    color: rgb(212, 93, 72);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0 30px 0;
+}
+
+.address {
+    font-size: 12px;
+    color: rgb(87, 98, 146);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0 30px 0;
+}
